@@ -1,0 +1,57 @@
+#external-paragraph{
+    color: maroon;
+}
+
+    span{
+        color: red;
+        background-color: aqua;
+
+    }
+    *{
+        text-transform: uppercase;
+    }
+    .external-heading{
+       color: blueviolet; 
+    }
+    .link{
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-color: cadetblue;
+        text-decoration-thickness: 5px;
+    }
+    #Create link{
+        color: blueviolet;
+        text-decoration-line: underline;
+        cursor: pointer;
+ }
+ #pseudo-class:hover{
+    color: violet;
+
+ }
+ #pseudo-class:active{
+    color: brown;
+    }
+    #pseudo-class:visited{
+        color:green;
+        }
+        #pseudo-class:link{
+            color:yellow;
+            }
+            #pseudo-class:active{
+                color: hotpink;
+                }
+                #pseudo-class:visited{
+                    color: red;
+                    }
+                    #box{
+                        padding: 10px;
+                        border-style: solid;
+                        border-color: red;
+                        margin: 10px;
+
+                    }
+                    body{
+                     
+                        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK4EwBxHIxJIQkKzTtKuobWBSEEcVCKJw9jA&s");
+                        background-repeat: no-repeat;
+                    }

@@ -1,0 +1,49 @@
+#aligin{
+    text-align: center;
+}
+#aliginLast{
+    text-align: right;
+}
+#aliginleft{
+    text-align: left;
+}
+.aligin{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+}
+img{
+    padding: 5px;
+
+}
+.imagealigin{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction:column ;
+    
+}
+.desendent p {
+    color: aquamarine;
+    background-color: black;
+
+}
+.child >p {
+    color: blue;
+    background-color:brown;
+
+}
+.adjacent + p {
+    color: blue;
+    background-color:brown;
+
+}
+.sibling ~ p {
+    color: blue;
+    background-color:brown;
+
+}
